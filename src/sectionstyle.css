@@ -1,0 +1,39 @@
+.sectionheadingtext
+{font-size: 50px;
+font-family: 'Fraunces', serif; 
+}
+.sectioncolpostion{
+float: left;
+}
+.sectioncol{
+    padding: 100px;
+}
+.sectionimgcol
+{
+    width: 50%;
+    height: auto;
+}
+@media screen and (max-width: 1024px) {
+    .sectioncol{
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 786px) {
+    .sectioncol{
+        padding: 30px;
+       text-align: center;
+            }
+            .borderlearnmore1
+            {
+                left: 51px;
+            }
+            .borderlearnmore2
+            {
+                left: 51px;
+            }
+            .sectionheadingtext
+           {
+            font-size: 20px;
+           }
+    
+  }
